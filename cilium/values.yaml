@@ -35,6 +35,8 @@ envoy:
 
 gatewayAPI:
   enabled: true
+  service:
+    type: ClusterIP
 
 hubble:
   relay:
